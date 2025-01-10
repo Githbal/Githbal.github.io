@@ -1,0 +1,149 @@
+.logo {
+    padding: 30px 15px ;
+}
+
+.btn{
+    --backgound-color: #7e81ff;
+    --backgound-color-dark: #363636;
+    padding: 17px 7px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: var(--backgound-color);
+    box-shadow: 5px 5px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    color: azure;
+    &:active {
+        transform: translateX(5px) translateY(5px);
+        box-shadow: 0px 0px var(--backgound-color-dark);
+}
+}
+
+.btn1{
+    --backgound-color: #f395ff;
+    --backgound-color-dark: #363636;
+    padding: 6px 6px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--backgound-color);
+    box-shadow: 5px 5px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    outline: none;
+    &:active {
+        transform: translateX(5px) translateY(5px);
+        box-shadow: 0px 0px var(--backgound-color-dark);
+        
+}
+
+    &:hover {
+        background-color: #c075ca;
+    }
+}
+
+.btn2 {
+    --backgound-color: #173aff;
+    --backgound-color-dark: #363636;
+    padding: 6px 6px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--backgound-color);
+    box-shadow: 5px 5px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    &:active {
+        transform: translateX(5px) translateY(5px);
+        box-shadow: 0px 0px var(--backgound-color-dark);
+}
+
+    &:hover {
+        background-color: #1532d4
+    }
+}
+
+.btn3 {
+    --backgound-color: #f2ff3a;
+    --backgound-color-dark: #363636;
+    padding: 6px 6px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--backgound-color);
+    box-shadow: 5px 5px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    color: rgb(43, 43, 43);
+    outline: none;
+    &:active {
+        transform: translateX(5px) translateY(5px);
+        box-shadow: 0px 0px var(--backgound-color-dark);
+}
+    &:hover {
+        background-color:#c2cf04
+        
+    }
+}
+
+.btn4{
+    --backgound-color: #ff764c;
+    --backgound-color-dark: #363636;
+    padding: 6px 6px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--backgound-color);
+    box-shadow: 5px 5px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    color: #ffffff;
+    outline: none;
+    &:active {
+        transform: translateX(5px) translateY(5px);
+        box-shadow: 0px 0px var(--backgound-color-dark);
+       
+}
+    &:hover {
+        background-color:#c25939
+        
+    }
+}
+
+.linknya {
+   
+    padding: 12px 15px;
+}
+
+@media (max-width:640px) {
+    .btn {
+        font-size: 16px;
+        padding: 13px 10px;
+        
+    }
+    
+}

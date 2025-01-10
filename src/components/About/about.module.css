@@ -1,0 +1,53 @@
+.about {
+    --backgound-color: #bce4f9;
+    --backgound-color-dark: #363636;
+    padding: 8px 10px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    
+    background-color: var(--backgound-color);
+    box-shadow: 8px 8px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    
+    
+    border: 1px solid black;
+}
+
+.pabungkus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70vh;
+}
+
+.about2 {
+    --backgound-color: #ffd8d8;
+    --backgound-color-dark: #363636;
+    padding: 8px 10px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    
+    background-color: var(--backgound-color);
+    box-shadow: 8px 8px 0 var(--backgound-color-dark);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    
+    
+    border: 1px solid black;
+}
+
+.pabungkus2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363636;
+    height: 70vh;
+}
